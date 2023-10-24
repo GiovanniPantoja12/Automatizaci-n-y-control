@@ -8,6 +8,7 @@ Original file is located at
 """
 
 #Se desarrolla un control difuso para: segmentación de clientes en un banco.
+#By Giovanni Pantoja - 220160070
 
 #Control difuso
 !pip install scikit-fuzzy
