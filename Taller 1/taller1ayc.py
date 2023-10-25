@@ -39,7 +39,6 @@ cda['poco'] = fuzz.trimf(cda.universe,[2.5,20,32])
 cda['normal'] = fuzz.trimf(cda.universe,[22,70,100])
 cda['aceptable'] = fuzz.trimf(cda.universe,[90,170,250])
 cda['muy_aceptable'] = fuzz.trapmf(cda.universe,[200,350,550,550])
-
 cda.view()
 
 #Salario que gana el cliente
