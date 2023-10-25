@@ -19,6 +19,7 @@ import skfuzzy as fuzz
 from skfuzzy import control as ctrl
 
 #variables de entrada
+#Cabe destacar que al trabajar con millones, estos se llevan a la escala 1 : 1000000
 
 #Cantidad dinero ahorrado en el banco, se denota la variable como: cda
 cda = ctrl.Antecedent(np.arange(0,550,1),'cda')
